@@ -1,0 +1,354 @@
+/*-------------setings---------------*/
+body {
+    font-family: 'Rubik', sans-serif;
+    width: 1920px;
+}
+    
+p {
+	margin: 0;
+}
+ 
+/*-------------header---------------*/
+header {
+	background: url(../img/background.jpg) no-repeat center top/cover;
+	color: #fff;
+    text-align: center;
+    height: 800px;
+	
+    }
+    
+    
+
+    .header_top {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+        height: 120px;
+        margin-left: auto;  
+        margin-right: auto;
+        background: rgba(255,245,215,0.1);
+        width: 1920px;
+    }
+
+    .menu {
+        width: 50%;
+        padding-right: 380px;
+	}
+    
+    .menu ul {
+		list-style: none;
+		display: flex;
+        justify-content: space-between;
+        padding-top: 10px;
+		
+        margin: 0;
+    }
+    
+    .menu a {
+		color: #fff;
+		padding-bottom: 40px;
+		font-size: 18px;
+		text-transform: capitalize;
+        transition: 0.2s;
+        text-decoration: none;
+        text-transform: uppercase;
+        margin-left: 63px;
+        font-weight: 600;
+    }
+    
+    .menu a:hover {
+        border-bottom: 5px solid #ffcf59;
+        color: #ffcf59;
+        
+    }
+    
+    .logo_name {
+        font-size: 33px;
+        padding-left: 20px;
+        font-weight: 600;
+
+    }
+
+    .exchange {
+        border: 3px solid;
+        border-radius: 10px;
+        width: 480px;
+        height: 280px;
+        margin-top: 120px;
+        margin-left: 380px;
+        font-size: 30px;
+    }
+
+    .logo {
+        padding-left: 385px;
+    }
+
+    .colortext {
+        color: #ffcf59;
+    }
+
+    .line {
+        margin-right: 145px;
+        font-weight: 600;
+    }
+    
+    .line::before{
+        content: '';
+        width: 60px;
+        height: 4px;
+        background-color: #ffcf59;
+        display: inline-block;
+        margin: 50px 70px 10px 0px;
+        
+    }
+
+    .exchange p {
+        text-align: left;
+        padding-left: 130px;
+        padding-top: 10px;
+        line-height: 1.5;
+        font-weight: 400;
+    }
+
+    
+
+    .button {
+        margin-left: 130px;
+        display: block;
+        background: none;
+        border: solid 2px #ffcf59;
+        width: 170px;
+        text-decoration: none;
+        color: #ffcf59;
+        font-weight: 700;
+        font-size: 16px;
+        padding: 10px;
+        border-radius: 40px;
+        margin-top: 25px;
+        transition: all 0.4s ease;
+        outline: none;
+    }
+
+    .button:hover { 
+        background: #fff;
+        color: black;    
+        text-decoration: none;
+        border: solid 2px #fff;
+    }
+    
+    .hr2 {
+        border: none;
+        background-color: #ffcf59;
+        width: auto;
+        height: 4px;
+        margin-left: auto;
+        margin-right: auto;
+        width: 60px;
+        margin-top: 15px;
+    
+    }
+
+.list {
+    margin-top: 200px;
+    text-decoration: none;
+}
+
+.list ul {
+    list-style: none;
+		display: flex;
+        justify-content: center;
+        padding-top: 10px;
+        margin: 0;
+        
+}
+
+.list li {
+    margin: 20px;
+    
+}
+
+.list a {
+   
+}
+
+.list li{
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background-color: white;
+    display: inline-block;
+    
+    
+}
+
+.list li:hover {
+    background-color: #ffcf59;
+    border: black 1px solid;
+    box-shadow: 0px 0px 2px 3px #ffcf59;
+}
+
+
+    
+
+/*-------------diagram---------------*/
+
+.diagram h2{
+   font-size: 45px; 
+   text-align: center;
+   margin-bottom: 0;
+   margin-top: 70px;
+}
+
+.diagram {
+    text-align:center;
+    margin-top: 84px;
+    margin-bottom: 95px;
+}
+
+/*-------------buy---------------*/
+.buy h2{
+    font-size: 45px; 
+    text-align: center;
+    margin-bottom: 0;
+    padding-top: 115px;
+ }
+
+.buy {
+	background: url(../img/buy.jpg) ;
+	color: #fff;
+    text-align: center;
+    width: 1920px;
+    }
+
+.buy ul {
+		list-style: none;
+		display: flex;
+        justify-content: center;
+        padding-top: 10px;
+        margin: 0;
+        margin-left: 20px;
+    }
+
+.buy li {
+    padding-right: 310px;
+    padding-top: 25px;
+    font-size: 21px;
+}
+
+.information {
+	display: flex;
+    justify-content: center;
+        
+		
+    }
+
+input {
+		width: 370px;
+		height: 45px;
+		background: none;
+		color: #fff;
+		padding-left: 20px;
+		border: 1px solid #fff;	
+        outline: none;
+        font-size: 22px;
+    }
+    
+.input_2 {
+    padding-left: 50px;
+    width: 340px;
+}
+    
+.data {
+    padding: 14px;  
+}
+
+.information img {
+    position: absolute;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+.information p {
+    display: inline-block;
+    position: absolute;
+    text-align: center;
+    padding-right: 130px;
+    padding-top: 65px;
+}
+
+.buy h3 {
+    font-size: 30px;
+    font-weight: normal;
+    margin-top: 60px;
+}
+
+.form_1 ul {
+    display: flex;
+    justify-content:center;
+    
+}
+
+.form_1 li {
+    padding-right: 250px;
+    padding-left: 50px;
+    font-size: 17px;
+}
+
+.button1 {
+    
+    display: block;
+    text-align: center;
+    background: none;
+    border: solid 2px #ffcf59;
+    width: 170px;
+    text-decoration: none;
+    color: #ffcf59;
+    font-weight: 700;
+    font-size: 16px;
+    padding: 10px;
+    border-radius: 40px;
+    margin-top: 25px;
+    transition: all 0.4s ease;
+    outline: none;
+    margin-right: 0;
+    margin-left: 0;
+}
+
+.button1:hover { 
+    background: #fff;
+    color: black;    
+    text-decoration: none;
+    border: solid 2px #fff;
+}
+
+.button_posicion {
+    
+    text-align:center;
+    margin-left: 850px;
+    padding-bottom: 80px;
+    padding-top: 30px;
+    
+}
+/*-------------footer---------------*/
+
+footer {
+    background: url(../img/footer.jpg);
+}
+
+.footer_items ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    padding-top: 200px;
+    padding-bottom: 200px;
+    margin: 0;
+}
+
+.footer_items li {
+    padding-right: 100px;
+}
+
+
+
+/*-------------name---------------*/
+/*-------------name---------------*/
